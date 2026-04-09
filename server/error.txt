@@ -1,0 +1,16 @@
+Invalid environment variables: {
+  MONGODB_URI: [ 'Required' ],
+  SESSION_SECRET: [ 'Required' ],
+  CLIENT_ORIGIN: [ 'Required' ]
+}
+file:///D:/FSD_civiclink/server/src/lib/env.js:18
+  throw new Error("Invalid environment variables");
+        ^
+
+Error: Invalid environment variables
+    at file:///D:/FSD_civiclink/server/src/lib/env.js:18:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+
+Node.js v22.14.0
