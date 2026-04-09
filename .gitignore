@@ -1,8 +1,36 @@
+# Dependencies
 node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment files
 .env
-.venv/
-.vite/
-cookies.txt
+.env.local
+.env.*.local
+
+# Build output
 dist/
 build/
+client/dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
 .DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vite / React specific
+.vite/
+cookies.txt
+
+# Python (just in case)
+.venv/
